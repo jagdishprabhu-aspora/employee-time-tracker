@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}
+```
+
+### **Also create `.gitignore`:**
+- **Filename:** `.gitignore`
+- **Content:**
+```
+node_modules
+.next
+.env.local
+.DS_Store
+*.log
